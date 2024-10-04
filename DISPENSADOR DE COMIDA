@@ -192,7 +192,7 @@ void loop() {
 }
 
 void abrirServo() {
-  servo.write(90);
+  servo.write(45);
   delay(500);
   servo.write(0);
 }
@@ -205,7 +205,7 @@ void activarBuzzer(unsigned long tiempo) {
 }
 
 void abrirServoPorTiempo(int tiempo) {
-  servo.write(90);
+  servo.write(45);
   delay(tiempo);
   servo.write(0);
 }
